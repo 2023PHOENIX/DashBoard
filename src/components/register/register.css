@@ -1,0 +1,46 @@
+/* Add your existing styles if any */
+
+.signup-page {
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.signup-card {
+  max-width: 400px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.signup-input {
+  margin-bottom: 15px;
+}
+
+.signup-btn {
+  width: 100%;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.signup-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Rest of your CSS */

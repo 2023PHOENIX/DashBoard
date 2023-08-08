@@ -1,0 +1,31 @@
+/* Add your existing styles if any */
+
+.footer {
+  background-color: #333;
+  color: #ffffff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f39c12;
+}
+
+/* Rest of your CSS */

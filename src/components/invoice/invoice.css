@@ -1,0 +1,72 @@
+/* InvoicePage.css */
+
+.invoice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.invoice {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.invoice-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.invoice-title {
+  font-size: 28px;
+  margin: 0;
+}
+
+.invoice-subtitle {
+  font-size: 18px;
+  color: #777;
+  margin: 0;
+}
+
+.invoice-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.invoice-info {
+  flex: 1;
+}
+
+.invoice-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.invoice-items {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.invoice-items th,
+.invoice-items td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.invoice-total {
+  text-align: right;
+}
+
+.invoice-amount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin: 0;
+}

@@ -1,0 +1,30 @@
+/* NotFoundPage.css */
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.not-found-title {
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+
+.not-found-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.not-found-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.not-found-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+/* InputForm.css */
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  overflow: scroll;
+  margin-bottom : 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+}
+
+.radio-label {
+  margin-right: 10px;
+}
+
+.checkbox-label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
