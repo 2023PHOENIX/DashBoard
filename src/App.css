@@ -9,7 +9,7 @@ body{
   margin: 0;
   padding : 0;
   overflow: hidden;
-  background-color: #fff;
+  /* background-color: #000000; */
   background-size: cover;
   background-position: center;
 }
@@ -20,7 +20,7 @@ body{
 }
 /* Navigation bar styles */
 .nav {
-  background-color: #ffffff; /* White background */
+  background-color: #27374D; /* White background */
   width: 250px;
   height: 100vh;
   display: flex;
@@ -30,9 +30,13 @@ body{
 }
 
 ul {
+  padding : 0;
   list-style-type: none;
   margin-top: 40px;
   width: 100%;
+}
+.u-list{
+  padding-left : 0;
 }
 li{
   width : 100%;
@@ -40,24 +44,34 @@ li{
 .linkStyle {
   display: block;
   padding: 10px 20px;
-  color: #333333; /* Dark gray text color */
+  color: #9DB2BF; /* Dark gray text color */
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .linkStyle:hover {
-  background-color: #f2f2f2; /* Light gray background on hover */
-  color: #555555; /* Slightly darker text color on hover */
+  background-color: #9DB2BF; /* Light gray background on hover */
+  color: #DDE6ED; /* Slightly darker text color on hover */
   padding: 10px 0; /* Full width padding on hover */
   display: flex; /* Display as flex to take full width */
   justify-content: center; /* Center text horizontally */
   align-items: center; /* Center text vertically */
 }
-
+.logo-container{
+  height :50%;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left : 25%;
+}
 .logo {
   font-size: 24px;
   color: #333333; /* Dark gray text color for logo */
   margin-bottom: 20px;
+  height: 100px;
+  width: 100px;
 }
 
 .right-area{
@@ -73,7 +87,7 @@ footer{
 }
 
 /* static table css */
-
+/* 
 #staticTable {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -99,7 +113,7 @@ footer{
   text-align: left;
   background-color: #04AA6D;
   color: white;
-}
+} */
 
 .register-page {
      width: 100%;

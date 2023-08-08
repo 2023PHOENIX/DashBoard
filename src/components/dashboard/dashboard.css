@@ -1,0 +1,63 @@
+/* Calendar component styles */
+
+.calendar-container {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.react-calendar {
+  width: 100%;
+  max-width: 300px; /* Adjust the calendar width as needed */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar__tile {
+  border: none;
+}
+
+.react-calendar__tile--active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.dashboard{
+   display: flex;
+
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+.scrollable-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow: auto;
+  max-height: calc(100vh - 100px); /* Adjust the max height as needed */
+  width: 100%;
+}
+.chart-container{
+width: 30%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+/* Adjust other styles as needed */

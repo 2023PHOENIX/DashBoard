@@ -13,6 +13,7 @@ import NotFoundPage from "./components/404/NotFoundPage";
 import InvoicePage from "./components/invoice/InvoicePage";
 import ForgotPasswordPage from "./components/forgot/ForgotPasswordPage";
 import DashboardPageI from "./components/dashboard/DashBoardI";
+import DashboardI from "./components/dashboard/DashBoardI";
 function App() {
   return (
     <Router>
@@ -33,7 +34,7 @@ const Routing = () => {
   return (
     <Routes>
       <Route path="/" element={<div> Home </div>} />
-      <Route path="/dash1:" element={<div>dash</div>} />
+      <Route path="/dash1:" element={<DashboardI/>} />
       <Route path="/dash2:" element={<div>Dashboard _ 2</div>} />
       <Route path="/input:" element={<InputForm/>} />
       <Route path="/static:content" element={<StaticTable />} />

@@ -1,54 +1,33 @@
-/* StaticTablePage.css */
+/* StaticTable.css */
 
-.static-table-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #f0f0f0;
+#staticTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px; /* Add some margin at the top */
 }
 
-.table-title {
-  font-size: 32px;
-  margin-bottom: 20px;
+#staticTable td, #staticTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center-align content */
 }
 
-.table-wrapper {
-  width: 80%;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  margin-top: 20px;
+#staticTable th {
+  background-color: #007bff;
+  color: white;
+  padding: 12px; /* Increase padding for header cells */
+}
+
+#staticTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#staticTable tr:hover {
+  background-color: #ddd;
 }
 
 .scrollable-table {
-  max-height: 100vh;
-  overflow-y: scroll;
-}
-
-.static-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-.static-table th,
-.static-table td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
-}
-
-.static-table th {
-  background-color: #f2f2f2;
-  font-weight: bold;
-}
-
-.static-table td {
-  font-size: 16px;
-}
-
-.static-table tbody tr:hover {
-  background-color: #f5f5f5;
+  overflow: auto;
+  max-height: 100vh; /* Add a maximum height for scrollability */
 }

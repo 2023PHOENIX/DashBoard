@@ -1,9 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import logo from "./../images/logo.png";
 const Navigation = () => {
   return (
-    <nav className='nav'>
-      <ul>
+    <nav className="nav">
+      <ul className="u-list">
+        <li>
+          <div className="logo-container">
+            <img src={logo} alt="Logo" className="logo" />
+          </div>
+        </li>
         <li>
           <Link to="/" className="linkStyle">
             Home
@@ -78,7 +84,7 @@ const Navigation = () => {
         </li>
         <li>
           <Link to="/contact:" className="linkStyle">
-            contact 
+            contact
           </Link>
         </li>
       </ul>
